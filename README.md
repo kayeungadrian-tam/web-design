@@ -1,4 +1,12 @@
-# web-design
+<div align="center">
+
+<h1> Web-Design Templates<br>
+<img src="https://img.shields.io/badge/made%20with-LOVE-red?style=plastic">
+<img src="https://img.shields.io/badge/license-MIT-blue?style=plastic">
+</h1>
+</div>
+
+
 
 A personal collection of different tempaltes and designs for study purposes.
 
