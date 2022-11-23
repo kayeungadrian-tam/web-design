@@ -3,10 +3,9 @@
 <h1> Web-Design Templates<br>
 <img src="https://img.shields.io/badge/made%20with-LOVE-red?style=plastic">
 <img src="https://img.shields.io/badge/license-MIT-blue?style=plastic">
+<img src="https://img.shields.io/badge/templates-1-yellow?style=plastic">
 </h1>
 </div>
-
-
 
 A personal collection of different tempaltes and designs for study purposes.
 
@@ -23,3 +22,5 @@ Basic HTML and CSS with responsive design.
 ### 📓 Notes
 
 [Notion](https://adrian-tam.notion.site/HTML-CSS-WEB-1-def1de6771aa45efac2d2585270cd0cc)
+
+---
