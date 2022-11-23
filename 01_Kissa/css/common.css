@@ -6,21 +6,20 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: solid 1px rgba(122, 122, 122, 0.5);
 }
 
 ul,
 ol {
-  list-style: None;
+  list-style: none;
 }
 
 a {
   color: inherit;
-  text-decoration: None;
+  text-decoration: none;
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
   font-size: 16px;
   color: #000000;
   line-height: 1;
@@ -29,10 +28,6 @@ body {
 
 img {
   max-width: 100%;
-}
-
-.toggle-menu-button {
-  display: none;
 }
 
 .header-inner {
@@ -47,6 +42,10 @@ img {
   align-items: center;
 }
 
+.toggle-menu-button {
+  display: none;
+}
+
 .header-logo {
   display: block;
   width: 170px;
@@ -56,7 +55,7 @@ img {
   display: flex;
 }
 
-.site-menu li {
+.site-menu ul li {
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -67,7 +66,7 @@ img {
 }
 
 .footer {
-  color: white;
+  color: #ffffff;
   background-color: #24211b;
   padding-top: 30px;
   padding-bottom: 15px;
@@ -101,26 +100,26 @@ img {
 
 @media (max-width: 800px) {
   .site-menu ul {
-    /* color: red; */
     display: block;
     text-align: center;
+  }
 
+  .site-menu li {
     margin-top: 20px;
   }
+
   .header {
-    /* border-color: blue; */
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    background-color: #ffffff;
     height: 50px;
-    background-color: white;
     z-index: 10;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   }
 
   .header-inner {
-    /* border-color: red; */
     padding-left: 20px;
     padding-right: 20px;
     height: 100%;
@@ -132,7 +131,6 @@ img {
   }
 
   .header-site-menu {
-    color: red;
     position: absolute;
     top: 100%;
     left: 0;
@@ -143,12 +141,27 @@ img {
     padding-bottom: 50px;
     display: none;
   }
+
   .header-site-menu.is-show {
     display: block;
   }
+
+  .toggle-menu-button {
+    display: block;
+    width: 44px;
+    height: 34px;
+    background-image: url(../images/common/icon-menu.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    outline: none;
+  }
+
   .main {
     padding-top: 50px;
-    border-color: orange;
   }
 
   .footer-logo {
@@ -161,19 +174,5 @@ img {
 
   .copyright {
     margin-top: 50px;
-  }
-
-  .toggle-menu-button {
-    display: block;
-    width: 43px;
-    height: 33px;
-    background-image: url(../images/common/icon-menu.png);
-    background-size: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    border: none;
-    border-radius: 0;
-    outline: none;
   }
 }
